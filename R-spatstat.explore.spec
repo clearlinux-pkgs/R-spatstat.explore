@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.explore
 Version  : 3.0.3
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/spatstat.explore_3.0-3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.explore_3.0-3.tar.gz
 Summary  : Exploratory Data Analysis for the 'spatstat' Family
@@ -51,10 +51,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1668013779
+export SOURCE_DATE_EPOCH=1668014402
 
 %install
-export SOURCE_DATE_EPOCH=1668013779
+export SOURCE_DATE_EPOCH=1668014402
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
