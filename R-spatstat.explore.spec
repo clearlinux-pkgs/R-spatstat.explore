@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-spatstat.explore
-Version  : 3.2.1
-Release  : 12
-URL      : https://cran.r-project.org/src/contrib/spatstat.explore_3.2-1.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/spatstat.explore_3.2-1.tar.gz
+Version  : 3.2.3
+Release  : 13
+URL      : https://cran.r-project.org/src/contrib/spatstat.explore_3.2-3.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/spatstat.explore_3.2-3.tar.gz
 Summary  : Exploratory Data Analysis for the 'spatstat' Family
 Group    : Development/Tools
 License  : GPL-2.0+
@@ -54,10 +54,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684031820
+export SOURCE_DATE_EPOCH=1694103049
 
 %install
-export SOURCE_DATE_EPOCH=1684031820
+export SOURCE_DATE_EPOCH=1694103049
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
