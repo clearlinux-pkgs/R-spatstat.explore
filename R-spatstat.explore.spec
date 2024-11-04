@@ -7,7 +7,7 @@
 #
 Name     : R-spatstat.explore
 Version  : 3.3.2
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/spatstat.explore_3.3-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.explore_3.3-2.tar.gz
 Summary  : Exploratory Data Analysis for the 'spatstat' Family
